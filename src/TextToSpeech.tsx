@@ -167,7 +167,11 @@ ${finalTranscript}`,
 
     return (
         <div className="container py-5">
-            <h1 className="text-center mb-4 fw-bold text-gradient">Riassuntore</h1>
+
+            <div className="d-flex w-100 justify-content-center align-items-center mb-4">
+                <h1 className="text-center  fw-bold text-gradient mx-2 mb-0">Summo lime</h1>
+                <img src="logo192.png" className="mx-2" style={{ width: 30, height: 30 }}></img>
+            </div>
 
             <div className="card shadow-lg border-0 rounded-4 p-4">
                 <div className="card-body text-center">
